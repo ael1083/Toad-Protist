@@ -7,3 +7,15 @@ Sequencing Platform
 
 These files include:
 - **1 total sample**
+
+Goals:
+- **Assemble genome of protist**
+- **Identify protist**
+- **Assess genome**
+
+## Methods
+- **tools used and what they do**
+
+## Results
+
+## Code
