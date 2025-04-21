@@ -2,7 +2,7 @@
 
 ## Background
 Sequencing Platform
-- **Paired-End**
+- Paired-End
 - **250 bp sequencing reads**
 
 These files include:
