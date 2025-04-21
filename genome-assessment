@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Run QUAST to provide basic statistics
+quast.py contigs.fasta -o quast_results
+
+#Run BUSCO to assess completeness of genome assembly
+busco -i contigs.fasta -m genome -o busco-results -l bacteria
