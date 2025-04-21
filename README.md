@@ -3,18 +3,18 @@
 ## Background
 Sequencing Platform
 - Paired-End
-- **250 bp sequencing reads**
+- 250 bp sequencing reads
 
 These files include:
-- **1 total sample**
+- 1 total sample
 
 Goals:
-- **Assemble genome of protist**
-- **Identify protist**
-- **Assess genome**
+- Assemble genome of protist
+- Identify protist
+- Assess genome
 
 ## Methods
-- **tools used and what they do**
+- tools used and what they do
 
 ## Results
 
