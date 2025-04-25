@@ -43,4 +43,14 @@ quast.py contigs.fasta -o quast_results
 
 #Run BUSCO to assess completeness of genome assembly
 busco -i contigs.fasta -m genome -o busco-results -l bacteria
+
+#Run PROKKA to do genome annotations
+nohup prokka --centre X --compliant contigs.fasta --outdir prokka_output --cpus 24 --mincontiglen 200 &
+ls prokka_output
+
+#Get counts for each gene annotation
+grep -o "product=.*" prokka_output/PROKKA_*.gff | sed 's/product=//g' | sort | uniq -c | sort -nr > protein_abundances.txt
+
+#Extract 16S sequences from FFN file
+filter_fasta_by_taxonomy_and_length.py --keys "16S ribosomal RNA" --out 16S_sequences.fasta prokka_output/PROKKA_*.ffn
 ```
