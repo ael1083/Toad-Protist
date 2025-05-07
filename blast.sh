@@ -4,8 +4,7 @@
 makeblastdb -in contigs.fasta -dbtype nucl -out contigs_db
 
 #Run BLAST
-blastn -query 16S_sequences.fasta -db contigs_db -out 16S_vs_contigs_6.tsv -o
-utfmt 6
+blastn -query 16S_sequences.fasta -db contigs_db -out 16S_vs_contigs_6.tsv -o utfmt 6
 less 16S_vs_contigs_6.tsv
 
 #Create output file for blobtools
