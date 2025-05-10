@@ -1,24 +1,21 @@
 # Toad-Protist
 
-## Background
-Sequencing Platform
-- Paired-End
-- 250 bp sequencing reads
+<details> <summary><H2> Background </H2></summary>
 
-These files include:
-- 1 total sample
+The data for this analysis was provided by the Hubbard Center for Genome Studies at the University of New Hampshire. It consists of 16s data in paired-end 250 bp reads that were amplified by Illumina HiSeq 2500. The files were made up of 1 sample taken from the Anaxyrus americanus, known as the American Toad. The protist, Amphibiothecum penneri, was identified from [this](https://pubmed.ncbi.nlm.nih.gov/16456158/) paper. With this data, the goal was to assemble the genome of the protist, identify the protist's class, and assess the genome.
 
-Goals:
-- Assemble genome of protist
-- Identify protist
-- Assess genome
+</details></details>
 
-## Methods
+<details> <summary><H2> Methods </H2></summary>
 - tools used and what they do
 
-## Results
+</details></details>
 
-## Code
+<details> <summary><H2> Results </H2></summary>
+
+</details></details>
+
+<details> <summary><H2> Code </H2></summary>
 ```bash
 #Ran Fastqc on paired samples
 mkdir fastqc_trimmed-reads
@@ -119,3 +116,9 @@ blastn -reward 1 -penalty -5 -gapopen 3 -gapextend 3 -dust yes -soft_
 masking true -evalue 700 -searchsp 1750000000000 -query protist_filte
 red.fasta -subject UniVec  -outfmt 6 -out genome_vs_univec.6
 ```
+
+</details></details>
+
+<details> <summary><H2> Bibliography </H2></summary>
+
+</details></details>
