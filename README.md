@@ -1,4 +1,4 @@
-# Toad-Protist
+# Toad-Protist Project
 
 <details> <summary><H2> Background </H2></summary>
 
@@ -12,6 +12,24 @@ The data for this analysis was provided by the Hubbard Center for Genome Studies
 </details></details>
 
 <details> <summary><H2> Results </H2></summary>
+
+With the analysis above, the following can be performed:
+
+<details> <summary><H3> Blast Hits </H3></summary>
+
+![](https://github.com/ael1083/Toad-Protist/blob/main/images/BLAST%20Distribution.png?raw=true)
+
+Explain
+
+</details>
+
+<details> <summary><H3> Blast Hits </H3></summary>
+
+![](https://github.com/user-attachments/assets/710b0667-e61c-42e7-99dc-f9329de3d574)
+
+Explain
+
+</details>
 
 </details></details>
 
@@ -120,5 +138,9 @@ red.fasta -subject UniVec  -outfmt 6 -out genome_vs_univec.6
 </details></details>
 
 <details> <summary><H2> Bibliography </H2></summary>
+
+- This project was completed following the [MDIBL-T3-WGS-Tutorial](https://github.com/Joseph7e/MDIBL-T3-WGS-Tutorial?tab=readme-ov-file#organism-identification)
+- [chatGPT](https://chatgpt.com/) helps explain what all the inputs do, outputs mean, and what can be done wtih them
+- [NIH BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=MegaBlast&PROGRAM=blastn&PAGE_TYPE=BlastSearch&BLAST_SPEC=) was used to visualize the 16S sequences FASTA 
 
 </details></details>
