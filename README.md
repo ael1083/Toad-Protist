@@ -34,6 +34,7 @@ Explain
 </details></details>
 
 <details> <summary><H2> Code </H2></summary>
+  
 ```bash
 #Ran Fastqc on paired samples
 mkdir fastqc_trimmed-reads
