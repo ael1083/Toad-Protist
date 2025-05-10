@@ -1,5 +1,7 @@
 # Toad-Protist Project
 
+Alexandria Lyden, Lawrence Gordon, W. Kelley Thomas
+
 <details> <summary><H2> Background </H2></summary>
 
 The data for this analysis was provided by the Hubbard Center for Genome Studies at the University of New Hampshire. It consists of 16s data in paired-end 250 bp reads that were amplified by Illumina HiSeq 2500. The files were made up of 1 sample taken from the Anaxyrus americanus, known as the American Toad. With this data, the goal was to assemble the genome of the protist, identify the protist's class, and assess the genome. The protist, Amphibiothecum penneri, was identified from [this](https://pubmed.ncbi.nlm.nih.gov/16456158/) paper.
@@ -7,7 +9,22 @@ The data for this analysis was provided by the Hubbard Center for Genome Studies
 </details></details>
 
 <details> <summary><H2> Methods </H2></summary>
-- tools used and what they do
+
+### Trimmomatic
+
+### SPADes
+
+### PROKKA
+
+### QUAST
+
+### BUSCO
+
+### BLAST
+
+### BWA mem
+
+### Blobtools
 
 </details></details>
 
@@ -23,7 +40,7 @@ Explain
 
 </details>
 
-<details> <summary><H3> Blast Hits </H3></summary>
+<details> <summary><H3> Genome Visualization </H3></summary>
 
 ![](https://github.com/user-attachments/assets/710b0667-e61c-42e7-99dc-f9329de3d574)
 
