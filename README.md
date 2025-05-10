@@ -2,7 +2,7 @@
 
 <details> <summary><H2> Background </H2></summary>
 
-The data for this analysis was provided by the Hubbard Center for Genome Studies at the University of New Hampshire. It consists of 16s data in paired-end 250 bp reads that were amplified by Illumina HiSeq 2500. The files were made up of 1 sample taken from the Anaxyrus americanus, known as the American Toad. The protist, Amphibiothecum penneri, was identified from [this](https://pubmed.ncbi.nlm.nih.gov/16456158/) paper. With this data, the goal was to assemble the genome of the protist, identify the protist's class, and assess the genome.
+The data for this analysis was provided by the Hubbard Center for Genome Studies at the University of New Hampshire. It consists of 16s data in paired-end 250 bp reads that were amplified by Illumina HiSeq 2500. The files were made up of 1 sample taken from the Anaxyrus americanus, known as the American Toad. With this data, the goal was to assemble the genome of the protist, identify the protist's class, and assess the genome. The protist, Amphibiothecum penneri, was identified from [this](https://pubmed.ncbi.nlm.nih.gov/16456158/) paper.
 
 </details></details>
 
