@@ -44,7 +44,7 @@ With the analysis above, the following can be performed:
 
 ![](https://github.com/ael1083/Toad-Protist/blob/main/images/BLAST%20Distribution.png?raw=true)
 
-Explain
+This shows the distribution of the top 30 BLAST hits on the 30 subject sequences against the query sequence. Most of the hits align at about 500bp, with a few hits also aligning at about 100bp. The top sequence (shown in purple), aligns at 100bp and then at 400-400bp, making that hit the closest match to the sample.
 
 </details>
 
