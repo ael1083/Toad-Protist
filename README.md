@@ -52,9 +52,11 @@ This shows the distribution of the top 30 BLAST hits on the 30 subject sequences
 
 ![](https://github.com/user-attachments/assets/710b0667-e61c-42e7-99dc-f9329de3d574)
 
-Explain
+This graph consists of three separate parts. The top portion of the graph plots the GC proportion against the Span in kilobases. It can be seen that the Bufo have a GC proportion of about 0.5 and span up to about 1000kb. The bottom left portion plots the GC proportion against the coverage. It is seen that the coverage hovers at about 10<sup>-1</sup>. The bottom right portion of the graph plots the Span in kilobases against the coverage, and also hovers at around 10<sup>-1</sup>.
 
 </details>
+
+These results were not expected. It is assumed that a mistake was made during the creation of the SAM file.
 
 </details></details>
 
