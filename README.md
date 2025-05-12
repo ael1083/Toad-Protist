@@ -11,20 +11,28 @@ The data for this analysis was provided by the Hubbard Center for Genome Studies
 <details> <summary><H2> Methods </H2></summary>
 
 ### Trimmomatic
+This tool is used to trim low quality bases determined from a fastqc output. It will also remove adaptors automatically. This tool was used in conjunction with a script that made the program easier to use. The input is the raw forward and reverse reads and the outputs are trimmed fastq files.
 
 ### SPADes
-
-### PROKKA
+This tool assembles bacterial genomes. The inputs are the trimmed fastq files and the output is a fasta file containing the genome assembly.
 
 ### QUAST
+This is a tool that examines how well the genome assembly has been constructed and gives the total genome size. It was used to keep track of the length of each contig and provided statistics about them. The input is the genome assembly fasta file and the output consist of multiple tables.
 
 ### BUSCO
+This tool assesses the completeness of the genome assembly using the OrthoDB set of single-copy orthologous that are found in at least 90% of all the organisms. The input was the genome assembly of contigs and the bacteria database and the output is a directory containing a summary of the results, a table with coordinates for where each orthologous gene is located in the assembly, and a directory with the nucleotide and amino acid sequences of all the identified sequences.
 
-### BLAST
+### PROKKA
+This tool is used to annotate the genome assembly. The inputs are the contig fasta file, the output is gene annotations in GFF format, and FFN (nucleotide) and FAA (amino acid) FASTA sequence files. The outputs are multiple files of different types, including .ffn, .fna, and .fsa. The .ffn file is the main focus.
+
+### BLAST (Basic Local Alignment Search Tool)
+This tool identifies sequence similarity to a given reference set and identify sequence homology. This program can be run locally or on the NCBI website. The input is the 16S sequence that was determined from the PROKKA results. The output is the top hits in the database with the best taxonomic matches at the top.
 
 ### BWA mem
+This tool alignis short reads to a reference sequence. The input to the program is a referece assembly and forward and reverse reads to map. The output is a SAM file that can be used to calculate coverage.
 
 ### Blobtools
+THis tool visualizes the genome assembly and filters read and assembly data sets. The inputs are the contig fasta file, a "hits" file generated from the BLAST, and the SAM file generrated from the BWA program. The output includes a blobplot, which plots the GC, coverage, taxonomy, and contigs lengths on a single graph.
 
 </details></details>
 
